@@ -4,3 +4,5 @@ project(learn_cxx)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(learn_cxx main.cpp)
+add_executable(readFile readFile.cpp)
+add_executable(bloom bloomFilter.cpp fnv.h)
