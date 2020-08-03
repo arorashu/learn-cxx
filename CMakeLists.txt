@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 project(learn_cxx)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
-add_executable(learn_cxx main.cpp)
-add_executable(readFile readFile.cpp)
-add_executable(bloom bloomFilter.cpp fnv.h)
+add_executable(learn_cxx.out main.cpp)
+add_executable(readFile.out readFile.cpp)
+add_executable(bloom.out bloomFilter.cpp fnv.h)
+add_executable(helloTemplate.out helloTemplate.cpp)
+add_executable(helloMultisets.out helloMultisets.cpp)

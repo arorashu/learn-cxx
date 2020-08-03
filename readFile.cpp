@@ -29,9 +29,15 @@ int main() {
 //    for(const auto &it: elements) {
 //        cout<< it <<", ";
 //    }
-cout<< elements[0];
-
+    cout<< elements[0];
     cout<<endl << "File size: " << elements.size();
+
+    ofstream outFile("outFile.txt");
+    for(const auto &it: elements) {
+        outFile << it;
+        outFile << endl;
+    }
+
 
 
     return 0;
